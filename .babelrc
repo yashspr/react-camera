@@ -1,47 +1,24 @@
 {
-  "presets": [
-    "react"
-  ],
-  "plugins": [
-    [
-      "transform-react-remove-prop-types",
-
-      {
-        "mode": "wrap"
-      }
-    ],
-  ],
+  "presets": ["react"],
+  "plugins": [],
   "env": {
     "dev": {
-      "presets": [
-        "es2015",
-        "react-hmre"
-      ]
+      "presets": ["es2015", "react-hmre"]
     },
     "development": {
-      "presets": [
-        "es2015"
-      ]
+      "presets": ["es2015"]
     },
     "dist": {
-      "presets": [
-        "es2015"
-      ]
+      "presets": ["es2015"]
     },
     "distMin": {
-      "presets": [
-        "es2015"
-      ]
+      "presets": ["es2015"]
     },
     "ghPages": {
-      "presets": [
-        "es2015"
-      ]
+      "presets": ["es2015"]
     },
     "modules": {
-      "presets": [
-        "es2015"
-      ]
+      "presets": ["es2015"]
     },
     "es6": {
       "presets": [
@@ -54,9 +31,7 @@
       ]
     },
     "test": {
-      "presets": [
-        "es2015"
-      ]
+      "presets": ["es2015"]
     }
   }
 }
