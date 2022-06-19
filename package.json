@@ -1,5 +1,5 @@
 {
-  "name": "react-camera",
+  "name": "@yashassp/react-camera",
   "version": "0.1.2",
   "license": "MIT",
   "description": "A Camera component for React.",
